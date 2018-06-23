@@ -1,0 +1,9 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\bin\Debug\netcoreapp2.0\Core.deps.json
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\bin\Debug\netcoreapp2.0\Core.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\bin\Debug\netcoreapp2.0\Core.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\obj\Debug\netcoreapp2.0\Core.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\obj\Debug\netcoreapp2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\obj\Debug\netcoreapp2.0\Core.AssemblyInfoInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\obj\Debug\netcoreapp2.0\Core.AssemblyInfo.cs
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\obj\Debug\netcoreapp2.0\Core.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Core\obj\Debug\netcoreapp2.0\Core.pdb

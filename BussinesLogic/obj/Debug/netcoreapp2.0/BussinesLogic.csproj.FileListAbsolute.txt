@@ -1,0 +1,16 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\obj\Debug\netcoreapp2.0\BussinesLogic.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\obj\Debug\netcoreapp2.0\BussinesLogic.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\obj\Debug\netcoreapp2.0\BussinesLogic.AssemblyInfoInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\obj\Debug\netcoreapp2.0\BussinesLogic.AssemblyInfo.cs
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\BussinesLogic.deps.json
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\BussinesLogic.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\BussinesLogic.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\Core.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\DAO.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\Interfaces.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\DAO.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\Interfaces.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\bin\Debug\netcoreapp2.0\Core.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\obj\Debug\netcoreapp2.0\BussinesLogic.csproj.CopyComplete
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\obj\Debug\netcoreapp2.0\BussinesLogic.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BussinesLogic\obj\Debug\netcoreapp2.0\BussinesLogic.pdb

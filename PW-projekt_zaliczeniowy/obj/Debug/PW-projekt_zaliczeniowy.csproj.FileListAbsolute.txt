@@ -1,0 +1,15 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\PW-projekt_zaliczeniowy.exe.config
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\PW-projekt_zaliczeniowy.exe
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\PW-projekt_zaliczeniowy.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\MainWindow.g.cs
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\App.g.cs
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy_MarkupCompile.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy_MarkupCompile.lref
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\MainWindow.baml
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.g.resources
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW_projekt_zaliczeniowy.Properties.Resources.resources
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.csproj.GenerateResource.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.exe
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.pdb

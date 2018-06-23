@@ -1,0 +1,12 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\bin\Debug\netcoreapp2.0\Interfaces.deps.json
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\bin\Debug\netcoreapp2.0\Interfaces.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\bin\Debug\netcoreapp2.0\Interfaces.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\bin\Debug\netcoreapp2.0\Core.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\bin\Debug\netcoreapp2.0\Core.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\obj\Debug\netcoreapp2.0\Interfaces.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\obj\Debug\netcoreapp2.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\obj\Debug\netcoreapp2.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\obj\Debug\netcoreapp2.0\Interfaces.AssemblyInfo.cs
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\obj\Debug\netcoreapp2.0\Interfaces.csproj.CopyComplete
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\obj\Debug\netcoreapp2.0\Interfaces.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfaces\obj\Debug\netcoreapp2.0\Interfaces.pdb
