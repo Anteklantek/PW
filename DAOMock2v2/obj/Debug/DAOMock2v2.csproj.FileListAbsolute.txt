@@ -1,0 +1,13 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\obj\Debug\DAOMock2v2.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\obj\Debug\DAOMock2v2.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\bin\Debug\DAOMock2v2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\bin\Debug\DAOMock2v2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\bin\Debug\Corev2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\bin\Debug\DAOv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\bin\Debug\Interfacesv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\bin\Debug\Corev2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\bin\Debug\DAOv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\bin\Debug\Interfacesv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\obj\Debug\DAOMock2v2.csproj.CopyComplete
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\obj\Debug\DAOMock2v2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOMock2v2\obj\Debug\DAOMock2v2.pdb

@@ -1,0 +1,17 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\obj\Debug\BusinessLogicv2.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\obj\Debug\BusinessLogicv2.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\BusinessLogicv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\BusinessLogicv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\Corev2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\DAOv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\Interfacesv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\Corev2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\DAOv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\Interfacesv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\obj\Debug\BusinessLogicv2.csproj.CopyComplete
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\obj\Debug\BusinessLogicv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\obj\Debug\BusinessLogicv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\DAOMock1v2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\DAOMock2v2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\DAOMock1v2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\BusinessLogicv2\bin\Debug\DAOMock2v2.pdb

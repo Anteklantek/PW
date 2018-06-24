@@ -1,0 +1,6 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Corev2\bin\Debug\Corev2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Corev2\bin\Debug\Corev2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Corev2\obj\Debug\Corev2.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Corev2\obj\Debug\Corev2.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Corev2\obj\Debug\Corev2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Corev2\obj\Debug\Corev2.pdb

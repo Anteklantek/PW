@@ -1,0 +1,9 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\obj\Debug\Interfacesv2.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\obj\Debug\Interfacesv2.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\bin\Debug\Interfacesv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\bin\Debug\Interfacesv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\bin\Debug\Corev2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\bin\Debug\Corev2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\obj\Debug\Interfacesv2.csproj.CopyComplete
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\obj\Debug\Interfacesv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\Interfacesv2\obj\Debug\Interfacesv2.pdb

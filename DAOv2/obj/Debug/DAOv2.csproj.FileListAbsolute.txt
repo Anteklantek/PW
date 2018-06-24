@@ -1,0 +1,11 @@
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\obj\Debug\DAOv2.csprojAssemblyReference.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\obj\Debug\DAOv2.csproj.CoreCompileInputs.cache
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\bin\Debug\DAOv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\bin\Debug\DAOv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\bin\Debug\Corev2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\bin\Debug\Interfacesv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\bin\Debug\Corev2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\bin\Debug\Interfacesv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\obj\Debug\DAOv2.csproj.CopyComplete
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\obj\Debug\DAOv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\DAOv2\obj\Debug\DAOv2.pdb
