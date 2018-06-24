@@ -9,13 +9,21 @@ namespace Kowalski.PW_projekt_zaliczeniowy.DAOv2
     {
         public string Name { get; set; }
         public string City { get; set; }
-        public int establishmentYear { get; set; }
+        public int EstablishmentYear { get; set; }
 
         public Club(string name, string city, int establishmentYear)
         {
             Name = name;
             City = city;
-            this.establishmentYear = establishmentYear;
+            this.EstablishmentYear = establishmentYear;
+        }
+
+        public string ToString
+        {
+            get
+            {
+                return Name + " " + City;
+            }
         }
     }
 }

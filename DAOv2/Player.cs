@@ -22,5 +22,14 @@ namespace Kowalski.PW_projekt_zaliczeniowy.DAOv2
             Surname = surname;
             Position = position;
         }
+
+
+        public string ToString
+        {
+            get
+            {
+                return Name + " " + Surname;
+            }
+        }
     }
 }

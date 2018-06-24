@@ -22,5 +22,14 @@ namespace PW_projekt_zaliczeniowy.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("DAOMock1v2")]
+        public string dllName {
+            get {
+                return ((string)(this["dllName"]));
+            }
+        }
     }
 }

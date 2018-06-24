@@ -8,10 +8,13 @@ using System.Threading.Tasks;
 
 namespace Kowalski.PW_projekt_zaliczeniowy.Interfacesv2
 {
+
     public interface IPlayer
     {
         string Name { get; set; }
         string Surname { get; set; }
         Position Position { get; set; }
+
+        string ToString { get; }
     }
 }

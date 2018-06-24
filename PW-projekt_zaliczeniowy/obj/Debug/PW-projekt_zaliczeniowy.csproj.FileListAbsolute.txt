@@ -13,3 +13,10 @@ C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj
 C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.csproj.CoreCompileInputs.cache
 C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.exe
 C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\BusinessLogicv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\Interfacesv2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\Corev2.dll
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\BusinessLogicv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\Interfacesv2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\Corev2.pdb
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.csproj.CopyComplete

@@ -93,6 +93,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicv2\BusinessLogicv2.csproj">
+      <Project>{3569792e-f066-438f-8c06-4b095ccfedec}</Project>
+      <Name>BusinessLogicv2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfacesv2\Interfacesv2.csproj">
+      <Project>{b4dec2a6-0ebc-4398-a269-c0654958ec12}</Project>
+      <Name>Interfacesv2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
