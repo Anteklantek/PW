@@ -20,3 +20,4 @@ C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin
 C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\Interfacesv2.pdb
 C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\bin\Debug\Corev2.pdb
 C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\PW-projekt_zaliczeniowy.csproj.CopyComplete
+C:\Users\Bracia\source\repos\PW-projekt_zaliczeniowy\PW-projekt_zaliczeniowy\obj\Debug\GeneratedInternalTypeHelper.g.cs

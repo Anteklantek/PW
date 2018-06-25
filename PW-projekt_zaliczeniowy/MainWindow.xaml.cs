@@ -24,85 +24,13 @@ namespace PW_projekt_zaliczeniowy
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window, INotifyPropertyChanged
+    public partial class MainWindow : Window
     {
-        public event PropertyChangedEventHandler PropertyChanged;
 
-        public IPlayer _selectedPlayer;
-        public IPlayer SelectedPlayer
-        {
-            get
-            {
-                return _selectedPlayer;
-            }
-
-            set
-            {
-                if (value != _selectedPlayer)
-                {
-                    _selectedPlayer = value;
-                    OnPropertyChanged("SelectedPlayer");
-                }
-            }
-        }
-
-        private List<IPlayer> _players;
-        public List<IPlayer> Players
-        {
-            get { return _players; }
-            set { _players = value; }
-        }
-
-
-        private List<IClub> _clubs;
-        public List<IClub> Clubs
-        {
-            get { return _clubs; }
-            set { _clubs = value; }
-        }
-
-
-        public IClub _selectedClub;
-        public IClub SelectedClub
-        {
-            get
-            {
-                return _selectedClub;
-            }
-
-            set
-            {
-                if (value != _selectedClub)
-                {
-                    _selectedClub = value;
-                    OnPropertyChanged("SelectedClub");
-                }
-            }
-        }
-
-
-
-
-        public MainWindow()
-        {
-            InjectDllNameToBL();
-            Players = new List<IPlayer>(BusinessLogic.Instance.GetAllPlayers());
-            Clubs = new List<IClub>(BusinessLogic.Instance.GetAllClubs());
+       public MainWindow()
+        { 
             InitializeComponent();
-            DataContext = this;
         }
-        private static void InjectDllNameToBL()
-        {
-            BusinessLogic.Instance.DllName = Settings.Default.dllName;
-        }
-
-        protected void OnPropertyChanged(string name)
-        {
-            PropertyChangedEventHandler handler = PropertyChanged;
-            if (handler != null)
-            {
-                handler(this, new PropertyChangedEventArgs(name));
-            }
-        }
+        
     }
 }

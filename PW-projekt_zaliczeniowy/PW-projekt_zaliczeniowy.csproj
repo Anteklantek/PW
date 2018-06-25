@@ -35,6 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,6 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ClubListViewModel.cs" />
+    <Compile Include="ClubViewModel.cs" />
+    <Compile Include="ListViewModel.cs" />
+    <Compile Include="MainWindowViewModel.cs" />
+    <Compile Include="PlayerListViewModel.cs" />
+    <Compile Include="PlayerViewModel.cs" />
+    <Compile Include="RelayCommand.cs" />
+    <Compile Include="ViewModel.cs" />
+    <Compile Include="ViewModelBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -97,6 +107,10 @@
     <ProjectReference Include="..\BusinessLogicv2\BusinessLogicv2.csproj">
       <Project>{3569792e-f066-438f-8c06-4b095ccfedec}</Project>
       <Name>BusinessLogicv2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Corev2\Corev2.csproj">
+      <Project>{05f4e28d-0a6a-4693-9a05-85a4577d62af}</Project>
+      <Name>Corev2</Name>
     </ProjectReference>
     <ProjectReference Include="..\Interfacesv2\Interfacesv2.csproj">
       <Project>{b4dec2a6-0ebc-4398-a269-c0654958ec12}</Project>

@@ -31,5 +31,15 @@ namespace Kowalski.PW_projekt_zaliczeniowy.BussinesLogicv2
         {
             return _dao.GetAllClubs();
         }
+
+        public IClub GetClubToEdit()
+        {
+            return _dao.GetClubToEdit();
+        }
+
+        public IPlayer GetPlayerToEdit()
+        {
+            return _dao.GetPlayerToEdit();
+        }
     }
 }

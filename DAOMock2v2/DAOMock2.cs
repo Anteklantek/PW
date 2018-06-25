@@ -36,5 +36,17 @@ namespace Kowalski.PW_projekt_zaliczeniowy.DAOMock2v2
         {
             return Clubs;
         }
+
+        public IClub GetClubToEdit()
+        {
+            var club = new Club();
+            return club;
+        }
+
+        public IPlayer GetPlayerToEdit()
+        {
+            var player = new Player();
+            return player;
+        }
     }
 }

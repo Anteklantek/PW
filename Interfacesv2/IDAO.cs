@@ -12,5 +12,9 @@ namespace Kowalski.PW_projekt_zaliczeniowy.Interfacesv2
 
         IEnumerable<IClub> GetAllClubs();
 
+        IClub GetClubToEdit();
+
+        IPlayer GetPlayerToEdit();
+
     }
 }

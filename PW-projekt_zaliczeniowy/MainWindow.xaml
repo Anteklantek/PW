@@ -3,11 +3,25 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PW_projekt_zaliczeniowy"
+        xmlns:local="clr-namespace:Kowalski.PW_projekt_zaliczeniowy.PW_projekt_zaliczeniowy"
+        xmlns:StyleAlias="clr-namespace:Kowalski.PW_projekt_zaliczeniowy.Corev2;assembly=Corev2"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="675" Width="1200">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="dataFromEnum" MethodName="GetValues"
+                            ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="StyleAlias:Position"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <Window.DataContext>
+        <local:ViewModel/>
+    </Window.DataContext>
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
@@ -15,20 +29,53 @@
             <RowDefinition Height="1*" />
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-        <ListBox Grid.Column="0" x:Name="listBoxPlayers" ItemsSource="{Binding Players}" DisplayMemberPath="ToString" SelectedItem="{Binding SelectedPlayer, Mode=TwoWay}"/>
-        <StackPanel Grid.Column="1">
-            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=SelectedPlayer.Name}"></TextBlock>
-            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=SelectedPlayer.Surname}"></TextBlock>
-            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=SelectedPlayer.Club.ToString}"></TextBlock>
-            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=SelectedPlayer.Position}"></TextBlock>
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <ListBox  x:Name="listBoxPlayers" ItemsSource="{Binding PlayerListViewModel.Items}" DisplayMemberPath="Name" SelectedItem="{Binding PlayerListViewModel.SelectedItem}"/>
+            <Button Margin="4" Command="{Binding PlayerListViewModel.DeleteItem_Click}">Delete player</Button>
         </StackPanel>
-        <ListBox Grid.Row="1" Grid.Column="0" x:Name="listBoxClubs" ItemsSource="{Binding Clubs}" DisplayMemberPath="ToString" SelectedItem="{Binding SelectedClub, Mode=TwoWay}"/>
-        <StackPanel Grid.Row="1" Grid.Column="1">
-            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=SelectedClub.Name}"></TextBlock>
-            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=SelectedClub.City}"></TextBlock>
-            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=SelectedClub.EstablishmentYear}"></TextBlock>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <TextBox Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.SelectedItem.Name, Mode=TwoWay}"></TextBox>
+            <TextBox Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.SelectedItem.Surname, Mode=TwoWay}"></TextBox>
+            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.SelectedItem.Club.ToString}"></TextBlock>
+            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.SelectedItem.Position}"></TextBlock>
         </StackPanel>
 
+        <StackPanel Grid.Row="0" Grid.Column="2">
+            <TextBox  Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.EditedItem.Name, Mode=TwoWay}"></TextBox>
+            <TextBox  Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.EditedItem.Surname, Mode=TwoWay}"></TextBox>
+            <ComboBox ItemsSource="{Binding Path=ClubListViewModel.ItemsToOutsource}"
+                      SelectedItem="{Binding PlayerListViewModel.EditedItem.Club, Mode=TwoWay}"
+                      DisplayMemberPath="Name"/>
+            <ComboBox ItemsSource="{Binding Source={StaticResource dataFromEnum}}"
+                      SelectedItem="{Binding PlayerListViewModel.EditedItem.Position, Mode=TwoWay}"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="4" Command="{Binding PlayerListViewModel.AddNewItem_Click}">Add new Player</Button>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <ListBox x:Name="listBoxClubs" ItemsSource="{Binding ClubListViewModel.Items}" DisplayMemberPath="Name" SelectedItem="{Binding ClubListViewModel.SelectedItem}"/>
+            <Button Margin="4" Command="{Binding ClubListViewModel.DeleteItem_Click}">Delete club</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.SelectedItem.Name}"></TextBlock>
+            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.SelectedItem.City}"></TextBlock>
+            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.SelectedItem.EstablishmentYear}"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBox Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.SelectedItem.Name}"></TextBox>
+            <TextBox Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.SelectedItem.City}"></TextBox>
+            <TextBox Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.SelectedItem.EstablishmentYear}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <TextBox  Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.EditedItem.Name, Mode=TwoWay}"></TextBox>
+            <TextBox  Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.EditedItem.City, Mode=TwoWay}"></TextBox>
+            <TextBox  Margin="10" FontSize="20" Text="{Binding Path=ClubListViewModel.EditedItem.EstablishmentYear, Mode=TwoWay}"></TextBox>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="4" Command="{Binding ClubListViewModel.AddNewItem_Click}">Add new Club</Button>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 
 </Window>

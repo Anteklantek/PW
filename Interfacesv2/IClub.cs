@@ -11,5 +11,7 @@ namespace Kowalski.PW_projekt_zaliczeniowy.Interfacesv2
         int EstablishmentYear { get; set; }
 
         string ToString { get; }
+
+
     }
 }

@@ -15,6 +15,8 @@ namespace Kowalski.PW_projekt_zaliczeniowy.Interfacesv2
         string Surname { get; set; }
         Position Position { get; set; }
 
+        IClub Club { get; set; }
+
         string ToString { get; }
     }
 }
