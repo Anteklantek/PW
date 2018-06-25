@@ -15,6 +15,7 @@
                 <x:Type TypeName="StyleAlias:Position"/>
             </ObjectDataProvider.MethodParameters>
         </ObjectDataProvider>
+        <local:Converter x:Key="converter" />
     </Window.Resources>
     <Window.DataContext>
         <local:ViewModel/>
@@ -37,14 +38,18 @@
             <TextBox Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.SelectedItem.Name, Mode=TwoWay}"></TextBox>
             <TextBox Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.SelectedItem.Surname, Mode=TwoWay}"></TextBox>
             <TextBlock Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.SelectedItem.Club.ToString}"></TextBlock>
-            <TextBlock Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.SelectedItem.Position}"></TextBlock>
+            <ComboBox ItemsSource="{Binding Path=ClubListViewModel.Items}"
+                      SelectedItem="{Binding PlayerListViewModel.SelectedItem.Club, Converter={StaticResource ResourceKey=converter}, Mode=TwoWay}"
+                      DisplayMemberPath="Name"/>
+            <ComboBox ItemsSource="{Binding Source={StaticResource dataFromEnum}}"
+                      SelectedItem="{Binding PlayerListViewModel.SelectedItem.Position, Mode=TwoWay}"/>
         </StackPanel>
 
         <StackPanel Grid.Row="0" Grid.Column="2">
             <TextBox  Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.EditedItem.Name, Mode=TwoWay}"></TextBox>
             <TextBox  Margin="10" FontSize="20" Text="{Binding Path=PlayerListViewModel.EditedItem.Surname, Mode=TwoWay}"></TextBox>
-            <ComboBox ItemsSource="{Binding Path=ClubListViewModel.ItemsToOutsource}"
-                      SelectedItem="{Binding PlayerListViewModel.EditedItem.Club, Mode=TwoWay}"
+            <ComboBox ItemsSource="{Binding Path=ClubListViewModel.Items}"
+                      SelectedItem="{Binding PlayerListViewModel.EditedItem.Club, Converter={StaticResource ResourceKey=converter}, Mode=TwoWay}"
                       DisplayMemberPath="Name"/>
             <ComboBox ItemsSource="{Binding Source={StaticResource dataFromEnum}}"
                       SelectedItem="{Binding PlayerListViewModel.EditedItem.Position, Mode=TwoWay}"/>

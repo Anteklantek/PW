@@ -66,8 +66,6 @@ namespace Kowalski.PW_projekt_zaliczeniowy.PW_projekt_zaliczeniowy
         {
             var model = obj as ClubViewModel;
             return model != null &&
-                   EqualityComparer<IClub>.Default.Equals(_club, model._club) &&
-                   EqualityComparer<IClub>.Default.Equals(Club, model.Club) &&
                    Name == model.Name &&
                    City == model.City &&
                    EstablishmentYear == model.EstablishmentYear;
@@ -76,8 +74,6 @@ namespace Kowalski.PW_projekt_zaliczeniowy.PW_projekt_zaliczeniowy
         public override int GetHashCode()
         {
             var hashCode = 1618545312;
-            hashCode = hashCode * -1521134295 + EqualityComparer<IClub>.Default.GetHashCode(_club);
-            hashCode = hashCode * -1521134295 + EqualityComparer<IClub>.Default.GetHashCode(Club);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Name);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(City);
             hashCode = hashCode * -1521134295 + EstablishmentYear.GetHashCode();

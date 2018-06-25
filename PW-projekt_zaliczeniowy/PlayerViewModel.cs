@@ -24,9 +24,8 @@ namespace Kowalski.PW_projekt_zaliczeniowy.PW_projekt_zaliczeniowy
             _player = player;
         }
 
-        [Required(ErrorMessage = "Podaj nazwe klubu")]
+        [Required(ErrorMessage = "Podaj imię")]
         [StringLength(30, MinimumLength = 1, ErrorMessage = "Długość nazwy musi być w przedziale <1,30>")]
-        [RegularExpression(@"^[a-zA-z\ ]*", ErrorMessage = "Użyj tylko liter")]
         public string Name
         {
             get => _player.Name;
@@ -38,8 +37,8 @@ namespace Kowalski.PW_projekt_zaliczeniowy.PW_projekt_zaliczeniowy
             }
         }
 
-       [Required(ErrorMessage = "Podaj nazwę miasta z którego jest klub")]
-       [RegularExpression(@"^[a-zA-z\ ]*", ErrorMessage = "Użyj tylko liter")]
+        [Required(ErrorMessage = "Podaj nazwisko")]
+        [StringLength(30, MinimumLength = 1, ErrorMessage = "Długość nazwiska musi być w przedziale <1,30>")]
         public string Surname
         {
             get => _player.Surname;
@@ -51,6 +50,7 @@ namespace Kowalski.PW_projekt_zaliczeniowy.PW_projekt_zaliczeniowy
             }
         }
 
+        [Required(ErrorMessage = "Wybierz klub")]
         public IClub Club
         {
             get => _player.Club;
@@ -62,6 +62,7 @@ namespace Kowalski.PW_projekt_zaliczeniowy.PW_projekt_zaliczeniowy
             }
         }
 
+        [Required(ErrorMessage = "Wybierz pozycję")]
         public Position Position
         {
             get => _player.Position;

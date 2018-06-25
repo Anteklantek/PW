@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="ClubListViewModel.cs" />
     <Compile Include="ClubViewModel.cs" />
+    <Compile Include="Converter.cs" />
     <Compile Include="ListViewModel.cs" />
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="PlayerListViewModel.cs" />

@@ -73,7 +73,6 @@ namespace Kowalski.PW_projekt_zaliczeniowy.PW_projekt_zaliczeniowy
             {
                 Items.Add(EditedItem);
                 SetUpNewClubToAdd();
-                RaisePropertyChanged("ItemsToOutsource");
             }
         }
 
